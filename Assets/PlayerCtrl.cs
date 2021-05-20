@@ -5,19 +5,33 @@ using UnityEngine;
 public class PlayerCtrl : MonoBehaviour
 {
 
-    public float speed = 25;
+    public float speed = 500;
     private Rigidbody2D rb2d;
+    private Animator anim;
+    private SpriteRenderer spRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
         this.rb2d = GetComponent<Rigidbody2D>();
+        this.anim = GetComponent<Animator>();
+        this.spRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         float x = Input.GetAxisRaw("Horizontal");
-        rb2d.AddForce(Vector2.right * speed * x);
+        anim.SetFloat("Speed", x * speed);
+        rb2d.AddForce(Vector2.right * x * speed);
+
+        if (x < 0)
+        {
+            spRenderer.flipX = true;
+        }
+        else if (x > 0)
+        {
+            spRenderer.flipX = false;
+        }
     }
 }
