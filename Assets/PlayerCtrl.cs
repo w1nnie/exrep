@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerCtrl : MonoBehaviour
 {
 
-    public float speed = 25;
+    public float speed = 1;
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer spRenderer;
@@ -25,6 +25,7 @@ public class PlayerCtrl : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         anim.SetFloat("Speed", Math.Abs(x) * speed);
         rb2d.velocity = new Vector2(x * speed, rb2d.velocity.y);
+        Debug.Log(x * speed);
 
         if (x < 0)
         {
