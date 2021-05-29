@@ -38,6 +38,198 @@ TextureImporter:
   - first:
       213: -8341221618093203682
     second: steria_sprite_11
+  - first:
+      213: -7220502236223221139
+    second: steria_sprite_0
+  - first:
+      213: 7423685178287810090
+    second: steria_sprite_1
+  - first:
+      213: 7655823862371550516
+    second: steria_sprite_2
+  - first:
+      213: -174406474538566709
+    second: steria_sprite_3
+  - first:
+      213: -5747873101865433471
+    second: steria_sprite_4
+  - first:
+      213: -4226090100748131956
+    second: steria_sprite_5
+  - first:
+      213: 8250533723804212124
+    second: steria_sprite_6
+  - first:
+      213: 7281975514125838486
+    second: steria_sprite_7
+  - first:
+      213: 7193611257818642012
+    second: steria_sprite_8
+  - first:
+      213: 5889836801357776766
+    second: steria_sprite_9
+  - first:
+      213: 7825905504489472310
+    second: steria_sprite_10
+  - first:
+      213: -5829777301773854733
+    second: steria_sprite_11
+  - first:
+      213: -8508664040214562298
+    second: steria_sprite_12
+  - first:
+      213: 2346774219805089965
+    second: steria_sprite_13
+  - first:
+      213: -322799744149324863
+    second: steria_sprite_14
+  - first:
+      213: 1774587487939603312
+    second: steria_sprite_15
+  - first:
+      213: 6257424379084518513
+    second: steria_sprite_16
+  - first:
+      213: -6532846995549221636
+    second: steria_sprite_17
+  - first:
+      213: -3259931922426207286
+    second: steria_sprite_18
+  - first:
+      213: 2735831940994551160
+    second: steria_sprite_19
+  - first:
+      213: 5088400586644685216
+    second: steria_sprite_20
+  - first:
+      213: 6232435046592045188
+    second: steria_sprite_21
+  - first:
+      213: 3302953952800474747
+    second: steria_sprite_22
+  - first:
+      213: 6635394282944595338
+    second: steria_sprite_23
+  - first:
+      213: 7139395715179791135
+    second: steria_sprite_24
+  - first:
+      213: -5722735597858178332
+    second: steria_sprite_25
+  - first:
+      213: 8289747280782949653
+    second: steria_sprite_26
+  - first:
+      213: -5685418585273864917
+    second: steria_sprite_27
+  - first:
+      213: -2545363502831675085
+    second: steria_sprite_28
+  - first:
+      213: -4931509593412172784
+    second: steria_sprite_29
+  - first:
+      213: 5240545421147890915
+    second: steria_sprite_30
+  - first:
+      213: 8280320511064645989
+    second: steria_sprite_31
+  - first:
+      213: -2495581315720223091
+    second: steria_sprite_32
+  - first:
+      213: 3901206390302519217
+    second: steria_sprite_33
+  - first:
+      213: 5522843745505327920
+    second: steria_sprite_34
+  - first:
+      213: -5346025861614294738
+    second: steria_sprite_35
+  - first:
+      213: -6744800529172466647
+    second: steria_sprite_36
+  - first:
+      213: 5452241085415006984
+    second: steria_sprite_37
+  - first:
+      213: 4405894053254373976
+    second: steria_sprite_38
+  - first:
+      213: -1137183286145511766
+    second: steria_sprite_39
+  - first:
+      213: -8262967468944126960
+    second: steria_sprite_40
+  - first:
+      213: 924129017687322604
+    second: steria_sprite_41
+  - first:
+      213: -3420937503732604970
+    second: steria_sprite_42
+  - first:
+      213: 5108246313956887188
+    second: steria_sprite_43
+  - first:
+      213: -4598385209872381574
+    second: steria_sprite_44
+  - first:
+      213: -1616001356527741965
+    second: steria_sprite_45
+  - first:
+      213: 2188858858005530471
+    second: steria_sprite_46
+  - first:
+      213: 7170585655534347255
+    second: steria_sprite_47
+  - first:
+      213: 2592618949250408884
+    second: steria_sprite_48
+  - first:
+      213: 2359866118311858335
+    second: steria_sprite_49
+  - first:
+      213: 3424970879985976025
+    second: steria_sprite_50
+  - first:
+      213: -5851497379358520995
+    second: steria_sprite_51
+  - first:
+      213: 6463246499043891486
+    second: steria_sprite_52
+  - first:
+      213: -8416060853906136345
+    second: steria_sprite_53
+  - first:
+      213: -3334999202275333352
+    second: steria_sprite_54
+  - first:
+      213: 8706525954742468668
+    second: steria_sprite_55
+  - first:
+      213: 4461817189375250987
+    second: steria_sprite_56
+  - first:
+      213: 1590813556070035771
+    second: steria_sprite_57
+  - first:
+      213: -4135622209044951108
+    second: steria_sprite_58
+  - first:
+      213: 5823743408252144076
+    second: steria_sprite_59
+  - first:
+      213: -6863046993710516163
+    second: steria_sprite_60
+  - first:
+      213: -5377022587218380419
+    second: steria_sprite_61
+  - first:
+      213: 5857579807127591516
+    second: steria_sprite_62
+  - first:
+      213: 2039051060507831749
+    second: steria_sprite_63
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,8 +331,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47bcc6a2afbda6aa0800000000000000
-      internalID: -6166874872230392972
+      spriteID: d625006d87f9bcb90800000000000000
+      internalID: -7220502236223221139
       vertices: []
       indices: 
       edges: []
@@ -160,8 +352,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7576200b0ead17380800000000000000
-      internalID: -8975151923812210857
+      spriteID: a266d28565a360760800000000000000
+      internalID: 7423685178287810090
       vertices: []
       indices: 
       edges: []
@@ -181,8 +373,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00f1569691169ba0800000000000000
-      internalID: -6082654908252557298
+      spriteID: 4358d939d33fe3a60800000000000000
+      internalID: 7655823862371550516
       vertices: []
       indices: 
       edges: []
@@ -202,8 +394,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c08b98a29662ee120800000000000000
-      internalID: 2444933880835848204
+      spriteID: bcbb9964c32649df0800000000000000
+      internalID: -174406474538566709
       vertices: []
       indices: 
       edges: []
@@ -223,8 +415,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 270ce36e3a442f5f0800000000000000
-      internalID: -724441119319998350
+      spriteID: 186c94d0ed37b30b0800000000000000
+      internalID: -5747873101865433471
       vertices: []
       indices: 
       edges: []
@@ -244,8 +436,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2796c5f46eae016a0800000000000000
-      internalID: -6480421588891309710
+      spriteID: c81ec14b179e955c0800000000000000
+      internalID: -4226090100748131956
       vertices: []
       indices: 
       edges: []
@@ -265,8 +457,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b89aab72e958e60800000000000000
-      internalID: 7963945409547176794
+      spriteID: c9b1bb665b8cf7270800000000000000
+      internalID: 8250533723804212124
       vertices: []
       indices: 
       edges: []
@@ -286,8 +478,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e284e3a0c2dfcb30800000000000000
-      internalID: 4309895093242069736
+      spriteID: 69820960626ce0560800000000000000
+      internalID: 7281975514125838486
       vertices: []
       indices: 
       edges: []
@@ -307,8 +499,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e76bddf263e852bf0800000000000000
-      internalID: -349717032668907906
+      spriteID: c56f78a5357d4d360800000000000000
+      internalID: 7193611257818642012
       vertices: []
       indices: 
       edges: []
@@ -328,8 +520,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608055c971a7f3da0800000000000000
-      internalID: -5962913139789592570
+      spriteID: e7704f97d57ecb150800000000000000
+      internalID: 5889836801357776766
       vertices: []
       indices: 
       edges: []
@@ -349,8 +541,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7566759b90018a40800000000000000
-      internalID: 5368572899029837179
+      spriteID: 6318ed8c7933b9c60800000000000000
+      internalID: 7825905504489472310
       vertices: []
       indices: 
       edges: []
@@ -370,8 +562,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1fdebcc1270e3c80800000000000000
-      internalID: -8341221618093203682
+      spriteID: 3f752287e68781fa0800000000000000
+      internalID: -5829777301773854733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60afed1e2272be980800000000000000
+      internalID: -8508664040214562298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0e68b18ba619020800000000000000
+      internalID: 2346774219805089965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb746cc75f258bf0800000000000000
+      internalID: -322799744149324863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steria_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b2e790be990a810800000000000000
+      internalID: 1774587487939603312
       vertices: []
       indices: 
       edges: []
