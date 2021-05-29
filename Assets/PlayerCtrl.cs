@@ -38,7 +38,7 @@ public class PlayerCtrl : MonoBehaviour
             spRenderer.flipX = false;
         }
 
-        if (Input.GetButtonDown("Jump") & isGround) // ジャンプ
+        if (Input.GetButtonDown("Jump") & isGround) // スペースキーを押した時 かつ 地面に接地していた時 にジャンプ
         {
             Jump();
         }
