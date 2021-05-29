@@ -38,27 +38,32 @@ public class PlayerCtrl : MonoBehaviour
             spRenderer.flipX = false;
         }
 
-
         if (Input.GetButtonDown("Jump") & isGround) // ジャンプ
         {
-            anim.SetBool("isJump", true);
-            rb2d.AddForce(Vector2.up * jumpForce);
+            Jump();
         }
+
+        Vector3 left_SP = transform.position - Vector3.right * 0.3f;
+        Vector3 right_SP = transform.position + Vector3.right * 0.3f;
+        Vector3 EP = transform.position - Vector3.up * 0.1f;
+        Debug.DrawLine(left_SP, EP, Color.red);
+        Debug.DrawLine(right_SP, EP, Color.red);
     }
 
     private void FixedUpdate()
     {
-        isGround = false;
+        isGround = IsGround();
+        Debug.Log(isGround);
 
-        Vector2 groundPos =
-            new Vector2(
-                transform.position.x,
-                transform.position.y
-            );
+        // Vector2 groundPos =
+        //     new Vector2(
+        //         transform.position.x,
+        //         transform.position.y
+        //     );
 
-        Vector2 groundArea = new Vector2(0.5f, 0.5f);
+        // Vector2 groundArea = new Vector2(0.5f, 0.5f);
 
-        Debug.DrawLine(groundPos + groundArea, groundPos - groundArea, Color.white);
+        // Debug.DrawLine(groundPos + groundArea, groundPos - groundArea, Color.white);
 
         // isGround =
         //     Physics2D.OverlapArea(
@@ -69,5 +74,17 @@ public class PlayerCtrl : MonoBehaviour
 
         // Debug.Log(isGround);
 
+    }
+    void Jump()
+    {
+        anim.SetBool("isJump", true);
+        rb2d.AddForce(Vector2.up * jumpForce);
+    }
+    bool IsGround()
+    {
+        Vector3 left_SP = transform.position - Vector3.right * 0.2f;
+        Vector3 right_SP = transform.position + Vector3.right * 0.2f;
+        Vector3 EP = transform.position - Vector3.up * 0.6f;
+        return Physics2D.Linecast(left_SP, EP, groundLayer) || Physics2D.Linecast(right_SP, EP, groundLayer);
     }
 }
