@@ -43,9 +43,27 @@ public class PlayerCtrl : MonoBehaviour
             Jump();
         }
 
-        Vector3 left_SP = transform.position - Vector3.right * 0.3f;
+        if (isGround) // 地面にいるときはジャンプモーションoff
+        {
+            anim.SetBool("isJump", false);
+            anim.SetBool("isFall", false);
+        }
+
+        float velX = rb2d.velocity.x;
+        float velY = rb2d.velocity.y;
+        if (velY > 0.5f) // velocityが上向きに0.5fを超えていたらジャンプ
+        {
+            anim.SetBool("isJump", true);
+        }
+        if (velY < -0.1f) // velocityが下向きに0.1fを超えていたら落下
+        {
+            anim.SetBool("isFall", true);
+        }
+
+
+        Vector3 left_SP = transform.position - Vector3.right * 0.3f; // デバッグ用にsceneビューに当たり判定線を表示 -> 表示されない？
         Vector3 right_SP = transform.position + Vector3.right * 0.3f;
-        Vector3 EP = transform.position - Vector3.up * 0.1f;
+        Vector3 EP = transform.position - Vector3.up * 0.6f;
         Debug.DrawLine(left_SP, EP, Color.red);
         Debug.DrawLine(right_SP, EP, Color.red);
     }
@@ -54,25 +72,6 @@ public class PlayerCtrl : MonoBehaviour
     {
         isGround = IsGround();
         Debug.Log(isGround);
-
-        // Vector2 groundPos =
-        //     new Vector2(
-        //         transform.position.x,
-        //         transform.position.y
-        //     );
-
-        // Vector2 groundArea = new Vector2(0.5f, 0.5f);
-
-        // Debug.DrawLine(groundPos + groundArea, groundPos - groundArea, Color.white);
-
-        // isGround =
-        //     Physics2D.OverlapArea(
-        //         groundPos + groundArea,
-        //         groundPos - groundArea,
-        //         groundLayer
-        //     );
-
-        // Debug.Log(isGround);
 
     }
     void Jump()
