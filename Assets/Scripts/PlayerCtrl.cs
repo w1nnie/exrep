@@ -55,9 +55,17 @@ public class PlayerCtrl : MonoBehaviour
         {
             anim.SetBool("isJump", true);
         }
-        if (velY < -0.1f) // velocityが下向きに0.1fを超えていたら落下
+        else
+        {
+            anim.SetBool("isJump", false);
+        }
+        if (velY < -0.3f) // velocityが下向きに0.1fを超えていたら落下
         {
             anim.SetBool("isFall", true);
+        }
+        else
+        {
+            anim.SetBool("isFall", false);
         }
 
 
