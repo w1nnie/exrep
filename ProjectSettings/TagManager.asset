@@ -38,12 +38,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
-  - name: bg
+  - name: sky
     uniqueID: 2141310695
+    locked: 0
+  - name: mountain
+    uniqueID: 3480594627
+    locked: 0
+  - name: lake
+    uniqueID: 3153757469
+    locked: 0
+  - name: tree3
+    uniqueID: 1852196167
+    locked: 0
+  - name: tree2
+    uniqueID: 2538022385
+    locked: 0
+  - name: tree1
+    uniqueID: 1756008911
     locked: 0
   - name: character
     uniqueID: 1106414307
+    locked: 0
+  - name: ground
+    uniqueID: 3148627597
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
