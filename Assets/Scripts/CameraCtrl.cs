@@ -6,6 +6,7 @@ public class CameraCtrl : MonoBehaviour
 {
 
     public GameObject player;
+    private float velocity;
 
     // Start is called before the first frame update
     void Start()
@@ -14,12 +15,13 @@ public class CameraCtrl : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        transform.position = new Vector3(
+        Vector3 playerCameraPos = new Vector3(
             player.transform.position.x,
             this.transform.position.y,
             this.transform.position.z
         );
+        transform.position = Vector3.Lerp(transform.position, playerCameraPos, 7.0f * Time.deltaTime);
     }
 }
