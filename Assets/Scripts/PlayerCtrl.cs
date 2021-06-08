@@ -79,7 +79,7 @@ public class PlayerCtrl : MonoBehaviour
     private void FixedUpdate()
     {
         isGround = IsGround();
-        Debug.Log(isGround);
+        // Debug.Log(isGround);
 
     }
     void Jump()

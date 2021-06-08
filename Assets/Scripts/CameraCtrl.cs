@@ -6,7 +6,6 @@ public class CameraCtrl : MonoBehaviour
 {
 
     public GameObject player;
-    private float velocity;
 
     // Start is called before the first frame update
     void Start()
