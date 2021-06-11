@@ -29,7 +29,7 @@ public class PlayerCtrl : MonoBehaviour
         anim.SetFloat("Speed", Math.Abs(x) * speed);
         rb2d.velocity = new Vector2(x * speed, rb2d.velocity.y);
 
-        if (x < 0)
+        if (x < 0) // 進行方向によって画像を反転
         {
             spRenderer.flipX = true;
         }
@@ -68,8 +68,7 @@ public class PlayerCtrl : MonoBehaviour
             anim.SetBool("isFall", false);
         }
 
-
-        Vector3 left_SP = transform.position - Vector3.right * 0.3f; // デバッグ用にsceneビューに当たり判定線を表示 -> 表示されない？
+        Vector3 left_SP = transform.position - Vector3.right * 0.3f; // デバッグ用にsceneビューに当たり判定線を表示
         Vector3 right_SP = transform.position + Vector3.right * 0.3f;
         Vector3 EP = transform.position - Vector3.up * 0.6f;
         Debug.DrawLine(left_SP, EP, Color.red);
